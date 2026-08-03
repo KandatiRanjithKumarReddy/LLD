@@ -1,4 +1,5 @@
-class Singleton { //The Singleton Pattern ensures that a class has only one instance and provides a global point of access to that instance
+class Singleton { // The Singleton Pattern ensures that a class has only one instance and provides
+                  // a global point of access to that instance
 
     // Step 2: Private static instance (created only once)
     private static final Singleton instance = new Singleton();
